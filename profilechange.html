@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+      <title></title>
+      <meta charset="UTF-8">
+        <link href="public/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+          <link href="public/style.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <script src="public/jquery-3.3.1.min.js"></script>
+                <script src="public/bootstrap.min.js"></script>
+                <script type="text/javascript" src="public/script.js"></script>
+              </head>
+              <body>
+                <div class="container app">
+                  <div class="row app-one">
+                    <div class="col-sm-4 side">
+                      <div class="profilepic">
+                        <div class="picture">
+                          <a class="" href="index.html">
+                            <img src="public/img/back.png" width="30" height="30"  aria-hidden="true">
+                            </a>
+                            <a class="" href="profilechange.html">
+                              <span class="name-meta">
+                                <strong>Profile</strong>
+                              </span>
+                            </a>
+                            <img src="public/img/somesh.png" width="270" height="290" class="rounded-circle" >
+                              <form>
+                                <div class="form-group">
+                                  <label for="exampleFormControlFile1"></label>
+                                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                    <label for="formGroupExampleInput">full Name</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="somesh kumar">
+                                      <label for="formGroupExampleInput">mobile number</label>
+                                      <input type="number" class="form-control" id="formGroupExampleInput" placeholder="8013322105">
+                                        <button type="button" class="btn btn-outline-primary">submit</button>
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-8 conversation">
+                                <div class="row heading">
+                                  <div class="col-sm-2 col-md-1 col-xs-3 heading-avatar">
+                                    <div class="heading-avatar-icon">
+                                      <img src="public/img/salman.jpg" width="50" height="30" class="rounded-circle" >
+                                      </div>
+                                    </div>
+                                    <div class="col-sm-8 col-xs-7 heading-name">
+                                      <span class="name-meta">Salman</span>
+                                      <div class="statusbuttons onlinebutton" ></div>
+                                      <span class="message-time user-online"> Online </span>
+                                    </div>
+                                    <div class="col-sm-1 col-xs-1  heading-dot pull-right">
+                                      <i class="fa fa-ellipsis-v fa-2x  pull-right" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                  <div class="row message" id="conversation">
+                                    <div class="row message-previous">
+                                      <div class="col-sm-12 previous">
+                                        <a class="" href="index.html">
+                                          <span>Show Previous Message!</span>
+                                        </a>
+                                      </div>
+                                    </div>
+                                    <div class="chating">
+                                      <div class="col-sm-12 chat-day">
+            Today
+          </div>
+                                      <div class="row message-body">
+                                        <div class="col-sm-12 message-main-receiver">
+                                          <div class="receiver">
+                                            <div class="message-text">
+               Hi...
+              </div>
+                                            <label  class="bluetick pull-right">&#10003;&#10003;</label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="row message-body">
+                                        <div class="col-sm-12 message-main-sender">
+                                          <div class="sender">
+                                            <div class="message-text">
+                hlo.........how r u
+              </div>
+                                            <label  class="fadetick pull-right">&#10003;&#10003;</label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="row message-body">
+                                        <div class="col-sm-12 message-main-receiver">
+                                          <div class="receiver">
+                                            <div class="message-text">
+               f9........and u
+              </div>
+                                            <label  class="bluetick pull-right">&#10003;&#10003;</label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="row message-body">
+                                        <div class="col-sm-12 message-main-sender">
+                                          <div class="sender">
+                                            <div class="message-text">
+                me 2 where r u
+              </div>
+                                            <label  class="fadetick pull-right">&#10003;&#10003;</label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-sm-12 chat-day">
+            Today
+          </div>
+                                      <div class="row message-body">
+                                        <div class="col-sm-12 message-main-receiver">
+                                          <div class="receiver">
+                                            <div class="message-text">
+               home...and u
+              </div>
+                                            <label  class="bluetick pull-right">&#10003;&#10003;</label>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="row reply">
+                                    <div class="col-sm-1 col-xs-1 reply-emojis">
+                                      <i class="fa fa-smile-o fa-2x"></i>
+                                    </div>
+                                    <div class="col-sm-9 col-xs-9 reply-main">
+                                      <textarea class="form-control" rows="1" id="comment">Type a message</textarea>
+                                    </div>
+                                    <div class="col-sm-1 col-xs-1 reply-recording">
+                                      <i class="fa fa-microphone fa-2x" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="col-sm-1 col-xs-1 reply-send">
+                                      <i class="fa fa-send fa-2x" aria-hidden="true"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+                          </body>
+                        </html>
